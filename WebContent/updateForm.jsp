@@ -8,6 +8,7 @@
 
 	PhoneDao phoneDao = new PhoneDao();
 	PersonVo personVo = phoneDao.getPerson(personId); //아이디를 주면 아이디에 해당하는 person정보를 가져온다
+
 %>
 
 
@@ -38,7 +39,7 @@
 	</form>
 	
 	<br><br><br>
-	<a href="./list.jsp" alt="">리스트 바로가기</a>
+	<a href="./list.jsp">리스트 바로가기</a>
 	
 </body>
 </html>
