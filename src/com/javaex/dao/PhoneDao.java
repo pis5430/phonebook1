@@ -179,7 +179,6 @@ public class PhoneDao {
 			query += " set   name = ?, ";
 			query += "       hp = ?, ";
 			query += "       company = ? ";
-			query += " from person ";
 			query += " where person_id = ? ";
 			
 			//System.out.println(query);
